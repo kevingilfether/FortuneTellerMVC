@@ -114,29 +114,29 @@ namespace FortuneTellerMVC.Controllers
 
             //
             int iBirthMonth = 0;
-            if (customer.BirthMonth.ToLower() == "january" || customer.BirthMonth.ToLower() == "jan")
+            if (customer.BirthMonth == "1" || customer.BirthMonth.ToLower() == "january" || customer.BirthMonth.ToLower() == "jan")
                 iBirthMonth = 1;
-            if (customer.BirthMonth.ToLower() == "february" || customer.BirthMonth.ToLower() == "feb")
+            if (customer.BirthMonth == "2" || customer.BirthMonth.ToLower() == "february" || customer.BirthMonth.ToLower() == "feb")
                 iBirthMonth = 2;
-            if (customer.BirthMonth.ToLower() == "march" || customer.BirthMonth.ToLower() == "mar")
+            if (customer.BirthMonth == "3" || customer.BirthMonth.ToLower() == "march" || customer.BirthMonth.ToLower() == "mar")
                 iBirthMonth = 3;
-            if (customer.BirthMonth.ToLower() == "april" || customer.BirthMonth.ToLower() == "apr")
+            if (customer.BirthMonth == "4" || customer.BirthMonth.ToLower() == "april" || customer.BirthMonth.ToLower() == "apr")
                 iBirthMonth = 4;
-            if (customer.BirthMonth.ToLower() == "may" || customer.BirthMonth.ToLower() == "may")
+            if (customer.BirthMonth == "5" || customer.BirthMonth.ToLower() == "may" || customer.BirthMonth.ToLower() == "may")
                 iBirthMonth = 5;
-            if (customer.BirthMonth.ToLower() == "june" || customer.BirthMonth.ToLower() == "jun")
+            if (customer.BirthMonth == "6" || customer.BirthMonth.ToLower() == "june" || customer.BirthMonth.ToLower() == "jun")
                 iBirthMonth = 6;
-            if (customer.BirthMonth.ToLower() == "july" || customer.BirthMonth.ToLower() == "jul")
+            if (customer.BirthMonth == "7" || customer.BirthMonth.ToLower() == "july" || customer.BirthMonth.ToLower() == "jul")
                 iBirthMonth = 7;
-            if (customer.BirthMonth.ToLower() == "august" || customer.BirthMonth.ToLower() == "aug")
+            if (customer.BirthMonth == "8" || customer.BirthMonth.ToLower() == "august" || customer.BirthMonth.ToLower() == "aug")
                 iBirthMonth = 8;
-            if (customer.BirthMonth.ToLower() == "september" || customer.BirthMonth.ToLower() == "sep")
+            if (customer.BirthMonth == "9" || customer.BirthMonth.ToLower() == "september" || customer.BirthMonth.ToLower() == "sep")
                 iBirthMonth = 9;
-            if (customer.BirthMonth.ToLower() == "october" || customer.BirthMonth.ToLower() == "oct")
+            if (customer.BirthMonth == "10" || customer.BirthMonth.ToLower() == "october" || customer.BirthMonth.ToLower() == "oct")
                 iBirthMonth = 10;
-            if (customer.BirthMonth.ToLower() == "november" || customer.BirthMonth.ToLower() == "nov")
+            if (customer.BirthMonth == "11" || customer.BirthMonth.ToLower() == "november" || customer.BirthMonth.ToLower() == "nov")
                 iBirthMonth = 11;
-            if (customer.BirthMonth.ToLower() == "december" || customer.BirthMonth.ToLower() == "dec")
+            if (customer.BirthMonth == "12" || customer.BirthMonth.ToLower() == "december" || customer.BirthMonth.ToLower() == "dec")
                 iBirthMonth = 12;
 
             if (iBirthMonth >= 1 && iBirthMonth < 5)
