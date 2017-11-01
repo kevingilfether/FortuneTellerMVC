@@ -33,7 +33,8 @@ namespace FortuneTellerMVC.Controllers
                 return HttpNotFound();
             }
 
-            ViewBag.BirthMonth = customer.BirthMonth;
+            ViewBag.FirstName = customer.FirstName;
+            ViewBag.LastName = customer.LastName;
 
             if (customer.Age % 2 == 0)
             {
